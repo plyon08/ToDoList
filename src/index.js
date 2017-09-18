@@ -34,8 +34,9 @@ class ToDoList extends React.Component {
   
     return (
       <div className="todoListMain">
+        <h1>To Do List</h1>
         <div className="header">
-        <form onSubmit={this.addItem}>
+          <form onSubmit={this.addItem}>
             <input ref={(a) => this._inputElement = a}
                    placeholder="Enter task">
             </input>
